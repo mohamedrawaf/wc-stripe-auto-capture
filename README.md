@@ -1,4 +1,3 @@
-```markdown
 # WooCommerce Stripe Auto Capture 🚀
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/gpl-2.0)
@@ -34,7 +33,7 @@ The plugin operates on a precise schedule to prevent revenue loss:
 cd wp-content/plugins
 wget https://example.com/wc-stripe-auto-capture.zip
 unzip wc-stripe-auto-capture.zip
-```
+
 
 ## 🧩 Core Hooks
 
