@@ -74,14 +74,16 @@ unzip wc-stripe-auto-capture.zip
 add_filter('wc_stripe_auto_capture_days_before', function() {
     return 5; // Now captures on 5th day
 });
-
+```
+```php
 // Add custom email template
 add_filter('wc_stripe_auto_capture_email_content', function($content, $order) {
     ob_start();
     include get_template_directory() . '/custom-email-template.php';
     return ob_get_clean();
 }, 10, 2);
-
+```
+```php
 //Error Recovery
 add_action('wc_stripe_auto_capture_failed', function($order, $e) {
     if (str_contains($e->getMessage(), 'Insufficient funds')) {
