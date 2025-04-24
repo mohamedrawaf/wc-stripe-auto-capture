@@ -33,7 +33,7 @@ The plugin operates on a precise schedule to prevent revenue loss:
 cd wp-content/plugins
 wget https://example.com/wc-stripe-auto-capture.zip
 unzip wc-stripe-auto-capture.zip
-
+```
 
 ## 🧩 Core Hooks
 
