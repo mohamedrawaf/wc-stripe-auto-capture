@@ -71,8 +71,6 @@ add_filter('wc_stripe_auto_capture_email_subject', function($subject, $order) {
 
 == Screenshots ==
 1. Settings screen
-2. Order notes after capture
-3. Notification email example
 
 == Changelog ==
 
